@@ -52,6 +52,23 @@
       "parentUuid": "37c7cb8d_637f1996",
       "revId": "f7de1e423e06a6e2d2a0b8192865f09eca107007",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69b80f53_085642d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33916
+      },
+      "writtenOn": "2024-10-25T21:19:29Z",
+      "side": 1,
+      "message": "umi and cmi moved away successfully",
+      "revId": "f7de1e423e06a6e2d2a0b8192865f09eca107007",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
