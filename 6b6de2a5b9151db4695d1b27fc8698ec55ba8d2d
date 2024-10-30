@@ -45,6 +45,30 @@
       },
       "revId": "6b6de2a5b9151db4695d1b27fc8698ec55ba8d2d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0990d134_617ec81d",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-10-30T16:33:15Z",
+      "side": 1,
+      "message": "I believe this should be added, as that ensures that in no case the finger status stays as down after authentication has finished.",
+      "parentUuid": "1f028e6a_b95eecd3",
+      "range": {
+        "startLine": 393,
+        "startChar": 16,
+        "endLine": 393,
+        "endChar": 44
+      },
+      "revId": "6b6de2a5b9151db4695d1b27fc8698ec55ba8d2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
