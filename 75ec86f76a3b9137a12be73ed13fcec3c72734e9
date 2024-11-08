@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45fa8cc3_0296fd52",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-08T19:38:56Z",
+      "side": 1,
+      "message": "That\u0027s needed on the Redmi Note 10",
+      "revId": "75ec86f76a3b9137a12be73ed13fcec3c72734e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
