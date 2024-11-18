@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78e5218f_647283b9",
+        "filename": "aidl/fingerprint/Fingerprint.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-18T21:26:12Z",
+      "side": 1,
+      "message": "```suggestion\n                class_prefix \u003d FINGERPRINT_HARDWARE_MODULE_ID;\n```",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2123d57c_e52a4c4e",
+        "filename": "aidl/fingerprint/Fingerprint.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-18T21:26:12Z",
+      "side": 1,
+      "message": "```suggestion\nfingerprint_device_t* Fingerprint::openSensorHal(const char* class_name, const char* module_id) {\n    const hw_module_t* hw_mdl \u003d nullptr;\n\n    ALOGD(\"Opening fingerprint hal library...\");\n    if (hw_get_module_by_class(module_id, class_name, \u0026hw_mdl) !\u003d 0) {\n        ALOGE(\"Can\u0027t open fingerprint HW Module\");\n        return nullptr;\n    }\n```",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 5
+      },
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
