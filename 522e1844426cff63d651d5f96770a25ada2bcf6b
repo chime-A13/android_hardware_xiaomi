@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c835fbaa_f98decb9",
+        "filename": "aidl/fingerprint/CancellationSignal.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-18T21:26:49Z",
+      "side": 1,
+      "message": "```suggestion\n: public ::aidl::android::hardware::biometrics::common::BnCancellationSignal {\n```",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "78e5218f_647283b9",
         "filename": "aidl/fingerprint/Fingerprint.cpp",
         "patchSetId": 1
@@ -37,6 +54,23 @@
         "endLine": 131,
         "endChar": 5
       },
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d7dd8a6_a4ffab61",
+        "filename": "aidl/fingerprint/Fingerprint.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-18T21:26:49Z",
+      "side": 1,
+      "message": "```suggestion\n    static fingerprint_device_t* openSensorHal(const char* class_name, const char* module_id);\n```",
       "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
