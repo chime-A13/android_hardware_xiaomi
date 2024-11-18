@@ -12,7 +12,8 @@
 
 namespace aidl::android::hardware::biometrics::fingerprint {
 
-class CancellationSignal : public ::aidl::android::hardware::biometrics::common::BnCancellationSignal {
+class CancellationSignal
+    : public ::aidl::android::hardware::biometrics::common::BnCancellationSignal {
   public:
     CancellationSignal(Session* session);
     ndk::ScopedAStatus cancel() override;
