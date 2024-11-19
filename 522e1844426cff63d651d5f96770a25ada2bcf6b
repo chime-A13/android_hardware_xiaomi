@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bbb0596a_f495d8df",
+        "filename": "aidl/fingerprint/CancellationSignal.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-19T08:42:10Z",
+      "side": 1,
+      "message": "yes, but this has nothing to do with this gerrit change.",
+      "parentUuid": "594711b5_9d6c1cc2",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "78e5218f_647283b9",
         "filename": "aidl/fingerprint/Fingerprint.cpp",
         "patchSetId": 1
