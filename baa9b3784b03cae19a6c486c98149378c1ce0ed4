@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03958f57_116f3287",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-11-19T09:06:13Z",
+      "side": 1,
+      "message": "why would we even add this prop? We decided to keep the list of modules in the hal anyway, so if anyone needs a module which isn\u0027t there already they should add it here instead of adding a device specific property.",
+      "revId": "baa9b3784b03cae19a6c486c98149378c1ce0ed4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
