@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "594711b5_9d6c1cc2",
+        "filename": "aidl/fingerprint/CancellationSignal.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-11-19T08:28:41Z",
+      "side": 1,
+      "message": "I ran `clang-format` on top of it.",
+      "parentUuid": "c835fbaa_f98decb9",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "78e5218f_647283b9",
         "filename": "aidl/fingerprint/Fingerprint.cpp",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2024-11-18T21:26:12Z",
       "side": 1,
       "message": "```suggestion\n                class_prefix \u003d FINGERPRINT_HARDWARE_MODULE_ID;\n```",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a67741e4_1af558ec",
+        "filename": "aidl/fingerprint/Fingerprint.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-11-19T08:28:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78e5218f_647283b9",
       "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -58,6 +94,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cf3962b_4ad773f2",
+        "filename": "aidl/fingerprint/Fingerprint.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-11-19T08:28:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2123d57c_e52a4c4e",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 5
+      },
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d7dd8a6_a4ffab61",
@@ -71,6 +131,24 @@
       "writtenOn": "2024-11-18T21:26:49Z",
       "side": 1,
       "message": "```suggestion\n    static fingerprint_device_t* openSensorHal(const char* class_name, const char* module_id);\n```",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1eee8978_4964adf2",
+        "filename": "aidl/fingerprint/Fingerprint.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-11-19T08:28:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d7dd8a6_a4ffab61",
       "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
