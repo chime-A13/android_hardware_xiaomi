@@ -72,6 +72,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "120b9ca9_938082ff",
+        "filename": "aidl/fingerprint/CancellationSignal.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-11-19T08:59:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de1299dd_3f0df9e8",
+      "revId": "522e1844426cff63d651d5f96770a25ada2bcf6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "78e5218f_647283b9",
