@@ -33,6 +33,24 @@
       "message": "some clarification about clearAttemptCounter:\nI haven\u0027t found it in the example fingerprint HAL, but if this design is desirable, I will bring it back",
       "revId": "7f43a6d944dcbb71f9d9860dad2151b0a3252c73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49c2fd8a_a4515e0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-11-30T18:34:47Z",
+      "side": 1,
+      "message": "After revisiting this, I fail to understand how it would work properly without it, so I\u0027m bringing it back",
+      "parentUuid": "2f406f12_f2c2df2a",
+      "revId": "7f43a6d944dcbb71f9d9860dad2151b0a3252c73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
