@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a0efa88_cacc25f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-11-30T12:10:50Z",
+      "side": 1,
+      "message": "fixed https://katb.in/ibolemokagi and removed unused clearAttemptCounter",
+      "revId": "7f43a6d944dcbb71f9d9860dad2151b0a3252c73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
