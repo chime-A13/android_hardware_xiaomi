@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b8436b2a_590329ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-12-02T19:19:44Z",
+      "side": 1,
+      "message": "I agree. It seems like this comes from the example HAL for virtual FP and it\u0027s not useful outside of the test environment.",
+      "parentUuid": "c65ef9c1_cf0ff712",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ed3cf60_268d8e6d",
         "filename": "aidl/fingerprint/fingerprint.sysprop",
         "patchSetId": 14
