@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c65ef9c1_cf0ff712",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-02T10:40:15Z",
+      "side": 1,
+      "message": "The sysprop seems very unnecessarily bloated to me.\nAnything but type and sensor location does not seem to differ between devices.",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ed3cf60_268d8e6d",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-02T10:40:15Z",
+      "side": 1,
+      "message": "```suggestion\n    prop_name: \"persist.vendor.fingerprint.navigation_gesture\"\n```",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 67,
+        "endChar": 62
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
