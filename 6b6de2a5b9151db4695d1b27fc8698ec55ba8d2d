@@ -69,6 +69,30 @@
       },
       "revId": "6b6de2a5b9151db4695d1b27fc8698ec55ba8d2d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b244abe7_f77d45e5",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 7
+      },
+      "lineNbr": 393,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "the name is misleading then though.",
+      "parentUuid": "0990d134_617ec81d",
+      "range": {
+        "startLine": 393,
+        "startChar": 16,
+        "endLine": 393,
+        "endChar": 44
+      },
+      "revId": "6b6de2a5b9151db4695d1b27fc8698ec55ba8d2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

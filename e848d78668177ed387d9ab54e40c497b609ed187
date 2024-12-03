@@ -38,6 +38,155 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab0c7ce3_497c4081",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "all these logs should be removed or at least moved to debug level",
+      "range": {
+        "startLine": 56,
+        "startChar": 4,
+        "endLine": 56,
+        "endChar": 20
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71167abd_2c574f6d",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be in a more generic method for non-udfps devices?",
+      "range": {
+        "startLine": 149,
+        "startChar": 4,
+        "endLine": 150,
+        "endChar": 1
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2324348e_5df92478",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "```suggestion\n    ALOGE(\"Unknown acquired message from fingerprint vendor library: %d\", info);\n```",
+      "range": {
+        "startLine": 301,
+        "startChar": 19,
+        "endLine": 301,
+        "endChar": 30
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8c17d50_64567fa1",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "```suggestion\n    return AcquiredInfo::UNKNOWN;\n```",
+      "range": {
+        "startLine": 302,
+        "startChar": 25,
+        "endLine": 302,
+        "endChar": 37
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f916b1a3_919e0d99",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "we should either keep the list in hal or let devices set a property with the supported ones, not both.",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4f3d2d4_26dc1960",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "```suggestion\n# [0\u003dCONVENIENCE, 1\u003dWEAK, 2\u003dSTRONG]\n```",
+      "range": {
+        "startLine": 46,
+        "startChar": 5,
+        "endLine": 46,
+        "endChar": 14
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd4f16a2_f01fc1dc",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "should not be device specific",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2ed3cf60_268d8e6d",
         "filename": "aidl/fingerprint/fingerprint.sysprop",
         "patchSetId": 14
@@ -55,6 +204,74 @@
         "endLine": 67,
         "endChar": 62
       },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b47ea6d5_6fa865bb",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "should not be device specific",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec83ab4b_6e75548d",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "should not be device specific",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7282371_9b5256ef",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "should not be device specific",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "638d4af7_668821c9",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-03T09:50:54Z",
+      "side": 1,
+      "message": "should not be device specific",
       "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
