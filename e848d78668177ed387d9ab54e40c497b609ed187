@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f48eb1a4_d9ab807d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b8436b2a_590329ed",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab0c7ce3_497c4081",
@@ -49,6 +67,30 @@
       "writtenOn": "2024-12-03T09:50:54Z",
       "side": 1,
       "message": "all these logs should be removed or at least moved to debug level",
+      "range": {
+        "startLine": 56,
+        "startChar": 4,
+        "endLine": 56,
+        "endChar": 20
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39589984_83ba7e57",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab0c7ce3_497c4081",
       "range": {
         "startLine": 56,
         "startChar": 4,
@@ -105,6 +147,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba166c64_1ab720be",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2324348e_5df92478",
+      "range": {
+        "startLine": 301,
+        "startChar": 19,
+        "endLine": 301,
+        "endChar": 30
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e8c17d50_64567fa1",
@@ -118,6 +184,30 @@
       "writtenOn": "2024-12-03T09:50:54Z",
       "side": 1,
       "message": "```suggestion\n    return AcquiredInfo::UNKNOWN;\n```",
+      "range": {
+        "startLine": 302,
+        "startChar": 25,
+        "endLine": 302,
+        "endChar": 37
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a638a3b3_12daa9db",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 302,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e8c17d50_64567fa1",
       "range": {
         "startLine": 302,
         "startChar": 25,
@@ -145,6 +235,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d591c8ed_81b81d94",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f916b1a3_919e0d99",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4f3d2d4_26dc1960",
@@ -158,6 +266,30 @@
       "writtenOn": "2024-12-03T09:50:54Z",
       "side": 1,
       "message": "```suggestion\n# [0\u003dCONVENIENCE, 1\u003dWEAK, 2\u003dSTRONG]\n```",
+      "range": {
+        "startLine": 46,
+        "startChar": 5,
+        "endLine": 46,
+        "endChar": 14
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fe220fe_727458f0",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4f3d2d4_26dc1960",
       "range": {
         "startLine": 46,
         "startChar": 5,
@@ -185,6 +317,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9001aff8_8d958b60",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fd4f16a2_f01fc1dc",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ed3cf60_268d8e6d",
@@ -198,6 +348,30 @@
       "writtenOn": "2024-12-02T10:40:15Z",
       "side": 1,
       "message": "```suggestion\n    prop_name: \"persist.vendor.fingerprint.navigation_gesture\"\n```",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 67,
+        "endChar": 62
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6f4624b_315e3d95",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ed3cf60_268d8e6d",
       "range": {
         "startLine": 67,
         "startChar": 43,
@@ -225,6 +399,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37ad012c_97679a46",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b47ea6d5_6fa865bb",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec83ab4b_6e75548d",
@@ -238,6 +430,24 @@
       "writtenOn": "2024-12-03T09:50:54Z",
       "side": 1,
       "message": "should not be device specific",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93e641af_a56bd46c",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec83ab4b_6e75548d",
       "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -259,6 +469,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c0ea9ba_db5f9279",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7282371_9b5256ef",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "638d4af7_668821c9",
@@ -272,6 +500,24 @@
       "writtenOn": "2024-12-03T09:50:54Z",
       "side": 1,
       "message": "should not be device specific",
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "960ebe15_80e5745f",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 14
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-04T08:33:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "638d4af7_668821c9",
       "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
