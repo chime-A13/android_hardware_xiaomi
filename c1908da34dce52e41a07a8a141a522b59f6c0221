@@ -34,6 +34,24 @@
       "parentUuid": "31c14811_6e4e1dbc",
       "revId": "c1908da34dce52e41a07a8a141a522b59f6c0221",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e44ea03f_9fb5452f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33800
+      },
+      "writtenOn": "2024-12-13T14:47:04Z",
+      "side": 1,
+      "message": "Some official devices in LineageOS uses this, see  for example https://github.com/LineageOS/android_device_xiaomi_rosemary/blob/dde518b1e1f020ca1ff912266d63ba178de12c1a/biometrics/Android.bp",
+      "parentUuid": "cc7d0086_362ac5dc",
+      "revId": "c1908da34dce52e41a07a8a141a522b59f6c0221",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
