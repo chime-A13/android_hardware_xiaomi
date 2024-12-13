@@ -52,6 +52,24 @@
       "parentUuid": "cc7d0086_362ac5dc",
       "revId": "c1908da34dce52e41a07a8a141a522b59f6c0221",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbd88a9f_606dfdd7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-12-13T14:49:17Z",
+      "side": 1,
+      "message": "It breaks ELF checks if you add that target.\n\n`libvendor.goodix` would be just a stub lib that calls `vendor.goodix` in runtime. Since `libvendor.goodix` is empty, the build system would complain about missing symbols if a lib depends on those.",
+      "parentUuid": "cc7d0086_362ac5dc",
+      "revId": "c1908da34dce52e41a07a8a141a522b59f6c0221",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
