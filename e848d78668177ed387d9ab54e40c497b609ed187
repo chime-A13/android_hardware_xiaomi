@@ -124,6 +124,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f69f30a_367127d0",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 14
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-19T17:24:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71167abd_2c574f6d",
+      "range": {
+        "startLine": 149,
+        "startChar": 4,
+        "endLine": 150,
+        "endChar": 1
+      },
+      "revId": "e848d78668177ed387d9ab54e40c497b609ed187",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2324348e_5df92478",

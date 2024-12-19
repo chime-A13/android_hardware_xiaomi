@@ -125,6 +125,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "13e5b8b3_eabf876b",
+        "filename": "aidl/fingerprint/Fingerprint.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-19T17:24:20Z",
+      "side": 1,
+      "message": "Might be done? Not sure if what I did was right",
+      "parentUuid": "c631539c_2d9eb6c0",
+      "revId": "ecad73e22cd23497f6343cad08a5bd9cf2ca5323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3ab21881_2931b12a",
         "filename": "aidl/fingerprint/Fingerprint.h",
         "patchSetId": 2
@@ -136,6 +154,24 @@
       "writtenOn": "2024-10-05T16:53:23Z",
       "side": 1,
       "message": "sensor HAL?",
+      "revId": "ecad73e22cd23497f6343cad08a5bd9cf2ca5323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42420d33_d7ff8b3d",
+        "filename": "aidl/fingerprint/Fingerprint.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-19T17:24:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ab21881_2931b12a",
       "revId": "ecad73e22cd23497f6343cad08a5bd9cf2ca5323",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
