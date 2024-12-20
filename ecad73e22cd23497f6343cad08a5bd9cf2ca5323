@@ -141,6 +141,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82824c88_099896b1",
+        "filename": "aidl/fingerprint/Fingerprint.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-20T19:16:24Z",
+      "side": 1,
+      "message": "Seems to work fine",
+      "parentUuid": "13e5b8b3_eabf876b",
+      "revId": "ecad73e22cd23497f6343cad08a5bd9cf2ca5323",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3ab21881_2931b12a",
