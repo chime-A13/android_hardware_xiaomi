@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2d1a979_fa879a1a",
+        "filename": "aidl/fingerprint/Android.bp",
+        "patchSetId": 8
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-25T18:01:30Z",
+      "side": 1,
+      "message": "try select()?",
+      "revId": "42788a17aa44c74044abf1afe72fa7e66c2f7e07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
