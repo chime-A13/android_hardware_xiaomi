@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "64a5b4c7_7109873d",
+        "filename": "aidl/fingerprint/Fingerprint.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-25T22:32:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "333301fe_2e9e11fc",
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "30e31676_3420d56d",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-12-25T17:59:59Z",
       "side": 1,
       "message": "```suggestion\n    auto path \u003d std::format(\"/data/vendor_de/{}/fpdata/\", userId);\n    mDevice-\u003eset_active_group(mDevice, mUserId, path.c_str());\n```",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 54
+      },
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0048877e_ad041a14",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-25T22:32:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30e31676_3420d56d",
       "range": {
         "startLine": 33,
         "startChar": 0,
@@ -64,6 +106,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "334b980c_8700b9e9",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-25T22:32:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66b934a3_7cf2cb8e",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 204,
+        "endChar": 5
+      },
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4fa5157_e580528c",
@@ -87,6 +153,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d642eb1_d0e6a818",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-25T22:32:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4fa5157_e580528c",
+      "range": {
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 5
+      },
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3d3c5019_3040f16b",
@@ -100,6 +190,24 @@
       "writtenOn": "2024-12-25T17:59:59Z",
       "side": 1,
       "message": "```suggestion\n# whether support illumination control by hal (default: false)\n```",
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70070924_c3357d3c",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 17
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-12-25T22:32:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3d3c5019_3040f16b",
       "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
