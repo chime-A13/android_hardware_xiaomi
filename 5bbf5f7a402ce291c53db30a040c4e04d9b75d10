@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "333301fe_2e9e11fc",
+        "filename": "aidl/fingerprint/Fingerprint.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-25T17:59:59Z",
+      "side": 1,
+      "message": "```suggestion\n        std::string d;\n```",
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30e31676_3420d56d",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-25T17:59:59Z",
+      "side": 1,
+      "message": "```suggestion\n    auto path \u003d std::format(\"/data/vendor_de/{}/fpdata/\", userId);\n    mDevice-\u003eset_active_group(mDevice, mUserId, path.c_str());\n```",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 54
+      },
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66b934a3_7cf2cb8e",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-25T17:59:59Z",
+      "side": 1,
+      "message": "```suggestion\n    if (ret \u003d\u003d 0) {\n        mCb-\u003eonError(Error::CANCELED, 0 /* vendorCode */);\n        return ndk::ScopedAStatus::ok();\n    }\n\n    return ndk::ScopedAStatus::fromServiceSpecificError(ret);\n```",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 204,
+        "endChar": 5
+      },
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4fa5157_e580528c",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 17
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-25T17:59:59Z",
+      "side": 1,
+      "message": "```suggestion\n    }\n    if (lockoutMode \u003d\u003d LockoutTracker::LockoutMode::kTimed) {\n        int64_t timeLeft \u003d mLockoutTracker.getLockoutTimeLeft();\n        ALOGE(\"Fail: lockout timed: %ld\", timeLeft);\n        mCb-\u003eonLockoutTimed(timeLeft);\n        if (!mIsLockoutTimerStarted) startLockoutTimer(timeLeft);\n        return true;\n    }\n```",
+      "range": {
+        "startLine": 291,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 5
+      },
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d3c5019_3040f16b",
+        "filename": "aidl/fingerprint/fingerprint.sysprop",
+        "patchSetId": 17
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-25T17:59:59Z",
+      "side": 1,
+      "message": "```suggestion\n# whether support illumination control by hal (default: false)\n```",
+      "revId": "5bbf5f7a402ce291c53db30a040c4e04d9b75d10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
