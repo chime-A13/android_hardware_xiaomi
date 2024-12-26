@@ -16,6 +16,24 @@
       "message": "@bgcngm@gmail.com it would be nice if you could review the chain, it\u0027ll be needed for shipping 22.1",
       "revId": "6817ea23f3be449b3db78093bd0b9400691902df",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "731b29b7_7d83aea6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-12-26T09:19:33Z",
+      "side": 1,
+      "message": "Do you guys want this merged in 22.1 only or also 22.0?",
+      "parentUuid": "b6e1bcfe_c77967f1",
+      "revId": "6817ea23f3be449b3db78093bd0b9400691902df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
