@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a9cc29b_d44fb3a0",
+        "filename": "aidl/fingerprint/Session.cpp",
+        "patchSetId": 19
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-12-28T20:02:04Z",
+      "side": 1,
+      "message": "```suggestion\n                mUdfpsHandler-\u003eonAcquired(msg-\u003edata.acquired.acquired_info, vendorCode);\n```\nThe aidl acquired info is off by 1 compared to the hidl one, since UNKNONW is 0 now.\nDevices either need we can either https://github.com/cupid-development/android_device_xiaomi_sm8450-common/commit/db5f13b6ff1e860b63253602f0b514f672523004 or we apply this change here and keep using the hidl values returned by our hwmodule.",
+      "range": {
+        "startLine": 337,
+        "startChar": 63,
+        "endLine": 337,
+        "endChar": 69
+      },
+      "revId": "ba11fe6f76bfd6a15a74cf4eeb95e65ddb9e6622",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
