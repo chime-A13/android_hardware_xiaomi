@@ -34,6 +34,24 @@
       "parentUuid": "a2d1a979_fa879a1a",
       "revId": "42788a17aa44c74044abf1afe72fa7e66c2f7e07",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c8c3f81_837dc03d",
+        "filename": "aidl/fingerprint/Android.bp",
+        "patchSetId": 8
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-28T11:14:36Z",
+      "side": 1,
+      "message": "perhaps some change needs to be picked from aosp main?",
+      "parentUuid": "11605876_103badf0",
+      "revId": "42788a17aa44c74044abf1afe72fa7e66c2f7e07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
