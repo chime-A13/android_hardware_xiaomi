@@ -14,6 +14,7 @@ typedef enum udfpshandler_msg_type {
     UDFPSHANDLER_MSG_FINGER_UP,
     UDFPSHANDLER_MSG_ACQUIRED,
     UDFPSHANDLER_MSG_CANCEL,
+    UDFPSHANDLER_MSG_AUTHENTICATED,
 } udfpshandler_msg_type_t;
 
 typedef struct udfpshandler_finger_down_msg {

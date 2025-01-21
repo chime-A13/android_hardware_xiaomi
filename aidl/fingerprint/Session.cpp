@@ -379,6 +379,10 @@ void Session::notify(const fingerprint_msg_t* msg) {
         case FINGERPRINT_AUTHENTICATED: {
             ALOGD("onAuthenticated(fid=%d, gid=%d)", msg->data.authenticated.finger.fid,
                   msg->data.authenticated.finger.gid);
+
+            mUdfpsHandler->notify({
+                    .type = UDFPSHANDLER_MSG_AUTHENTICATED,
+            });
             if (msg->data.authenticated.finger.fid != 0) {
                 const hw_auth_token_t hat = msg->data.authenticated.hat;
                 HardwareAuthToken authToken;
