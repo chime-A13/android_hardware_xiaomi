@@ -130,14 +130,25 @@ ndk::ScopedAStatus Session::resetLockout(const HardwareAuthToken& /*hat*/) {
 ndk::ScopedAStatus Session::onPointerDown(int32_t /*pointerId*/, int32_t x, int32_t y, float minor,
                                           float major) {
     if (mUdfpsHandler) {
-        mUdfpsHandler->onFingerDown(x, y, minor, major);
+        mUdfpsHandler->notify({
+                .type = UDFPSHANDLER_MSG_FINGER_DOWN,
+                .data = {.finger_down_msg =
+                                 {
+                                         .x = static_cast<uint32_t>(x),
+                                         .y = static_cast<uint32_t>(y),
+                                         .minor = minor,
+                                         .major = major,
+                                 }},
+        });
     }
     return ndk::ScopedAStatus::ok();
 }
 
 ndk::ScopedAStatus Session::onPointerUp(int32_t /*pointerId*/) {
     if (mUdfpsHandler) {
-        mUdfpsHandler->onFingerUp();
+        mUdfpsHandler->notify({
+                .type = UDFPSHANDLER_MSG_FINGER_UP,
+        });
     }
 
     return ndk::ScopedAStatus::ok();
@@ -189,7 +200,9 @@ ndk::ScopedAStatus Session::setIgnoreDisplayTouches(bool /*shouldIgnore*/) {
 
 ndk::ScopedAStatus Session::cancel() {
     if (mUdfpsHandler) {
-        mUdfpsHandler->cancel();
+        mUdfpsHandler->notify({
+                .type = UDFPSHANDLER_MSG_CANCEL,
+        });
     }
 
     int ret = mDevice->cancel(mDevice);
@@ -334,7 +347,14 @@ void Session::notify(const fingerprint_msg_t* msg) {
                     VendorAcquiredFilter(msg->data.acquired.acquired_info, &vendorCode);
             ALOGD("onAcquired(%hhd, %d)", result, vendorCode);
             if (mUdfpsHandler) {
-                mUdfpsHandler->onAcquired(static_cast<int32_t>(result), vendorCode);
+                mUdfpsHandler->notify({
+                        .type = UDFPSHANDLER_MSG_ACQUIRED,
+                        .data = {.acquired_msg =
+                                         {
+                                                 .result = static_cast<int32_t>(result),
+                                                 .vendor = vendorCode,
+                                         }},
+                });
             }
             // don't process vendor messages further since frameworks try to disable
             // udfps display mode on vendor acquired messages but our sensors send a
