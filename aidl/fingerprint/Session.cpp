@@ -364,9 +364,15 @@ void Session::notify(const fingerprint_msg_t* msg) {
                 HardwareAuthToken authToken;
                 translate(hat, authToken);
 
+                if (mUdfpsHandler) {
+                    mUdfpsHandler->onAuthenticationSucceeded();
+                }
                 mCb->onAuthenticationSucceeded(msg->data.authenticated.finger.fid, authToken);
                 mLockoutTracker.reset(true);
             } else {
+                if (mUdfpsHandler) {
+                    mUdfpsHandler->onAuthenticationFailed();
+                }
                 mCb->onAuthenticationFailed();
                 mLockoutTracker.addFailedAttempt();
                 checkSensorLockout();
