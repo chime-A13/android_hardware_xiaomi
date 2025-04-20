@@ -16,6 +16,24 @@
       "message": "What was the device where this was needed?",
       "revId": "1b81776dd79fe108b24a66fae4b1722a4063bfae",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3e0c06c_5ac27a6d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-04-20T20:43:12Z",
+      "side": 1,
+      "message": "https://github.com/search?q\u003dxiaomi_hardware_biometrics%2Crun_32bit\u0026type\u003dcode",
+      "parentUuid": "9a7beddf_06864692",
+      "revId": "1b81776dd79fe108b24a66fae4b1722a4063bfae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
