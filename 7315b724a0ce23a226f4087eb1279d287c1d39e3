@@ -16,6 +16,23 @@
       "message": "This does not require device side changes anymore. I think it\u0027s reasonable to allow devices to skip providing some methods, of course we should be aware that we will not get compile errors when a device does not provide some method anymore.\n\nFor example on sm8450 we do not use fod_status (aka our touchscreen driver is not aware of fod while the touch is in resume state) and enable/disable hbm solely from udfpshandler messages for finger up/finger down. In contrast most older generations try to track whether fod \"is expected\" and the touch driver then notifies once it detects a touch. These approaches naturally have slightly different requirements on how the udfpshandler gets notified, thus i\u0027m in favor of this approach to provide everything here and let devices implement what they need to.",
       "revId": "7315b724a0ce23a226f4087eb1279d287c1d39e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ec9a6a0_745b9fc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-05-22T13:49:26Z",
+      "side": 1,
+      "message": "clang-format doesn\u0027t add a space between the method siganture and the body? Fine regardless",
+      "revId": "7315b724a0ce23a226f4087eb1279d287c1d39e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
