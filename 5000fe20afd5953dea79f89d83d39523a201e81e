@@ -16,6 +16,23 @@
       "message": "Adding you here, since you were the one that added this. I don\u0027t see it being used anywhere, so should be fine to merge.",
       "revId": "5000fe20afd5953dea79f89d83d39523a201e81e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "128767f0_5f432c47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2025-06-07T16:32:44Z",
+      "side": 1,
+      "message": "```\n$ bib ysl \u0026\u0026 m android.hardware.biometrics.fingerprint-service.xiaomi\n...\n\n$ file $OUT/vendor/bin/hw/android.hardware.biometrics.fingerprint-service.xiaomi\n/media/samsung_ssd/los22/out/target/product/ysl/vendor/bin/hw/android.hardware.biometrics.fingerprint-service.xiaomi: ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /system/bin/linker, for Android 35, BuildID[md5/uuid]\u003d36686fb58da2341d20c8462f42e0d635, stripped\n```",
+      "revId": "5000fe20afd5953dea79f89d83d39523a201e81e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
