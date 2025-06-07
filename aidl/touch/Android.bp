@@ -1,13 +1,12 @@
 //
-// SPDX-FileCopyrightText: 2022-2025 The LineageOS Project
+// SPDX-FileCopyrightText: 2025 The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.xiaomi",
-    defaults: ["hidl_defaults"],
-    vintf_fragments: ["vendor.lineage.touch@1.0-service.xiaomi.xml"],
-    init_rc: ["vendor.lineage.touch@1.0-service.xiaomi.rc"],
+    name: "vendor.lineage.touch-service.xiaomi",
+    vintf_fragments: ["vendor.lineage.touch-service.xiaomi.xml"],
+    init_rc: ["vendor.lineage.touch-service.xiaomi.rc"],
     relative_install_path: "hw",
     proprietary: true,
     cppflags: select(soong_config_variable("XIAOMI_TOUCH", "HIGH_TOUCH_POLLING_PATH"), {
@@ -20,9 +19,9 @@ cc_binary {
     ],
     shared_libs: [
         "libbase",
-        "libbinder",
-        "libhidlbase",
+        "liblog",
+        "libbinder_ndk",
         "libutils",
-        "vendor.lineage.touch@1.0",
+        "vendor.lineage.touch-V1-ndk",
     ],
 }
